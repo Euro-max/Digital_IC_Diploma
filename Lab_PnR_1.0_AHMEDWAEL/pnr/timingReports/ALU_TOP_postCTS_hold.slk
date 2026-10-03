@@ -1,0 +1,118 @@
+# Format: clock  timeReq  slackR/slackF  holdR/holdF  instName/pinName   # cycle(s)
+@(R)->CLK(R)	0.244    0.058/*         0.070/*         U0_LOGIC_UNIT/\Logic_OUT_reg[1] /RN    1
+@(R)->CLK(R)	0.244    0.059/*         0.070/*         U0_LOGIC_UNIT/\Logic_OUT_reg[2] /RN    1
+@(R)->CLK(R)	0.244    0.060/*         0.070/*         U0_LOGIC_UNIT/\Logic_OUT_reg[4] /RN    1
+@(R)->CLK(R)	0.244    0.060/*         0.070/*         U0_LOGIC_UNIT/\Logic_OUT_reg[3] /RN    1
+@(R)->CLK(R)	0.244    0.062/*         0.070/*         U0_LOGIC_UNIT/\Logic_OUT_reg[5] /RN    1
+@(R)->CLK(R)	0.243    0.062/*         0.070/*         U0_LOGIC_UNIT/\Logic_OUT_reg[0] /RN    1
+@(R)->CLK(R)	0.244    0.062/*         0.070/*         U0_LOGIC_UNIT/\Logic_OUT_reg[6] /RN    1
+@(R)->CLK(R)	0.247    0.063/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[0] /RN    1
+@(R)->CLK(R)	0.244    0.063/*         0.070/*         U0_LOGIC_UNIT/\Logic_OUT_reg[7] /RN    1
+@(R)->CLK(R)	0.247    0.064/*         0.070/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[1] /RN    1
+@(R)->CLK(R)	0.243    0.064/*         0.070/*         U0_CMP_UNIT/CMP_Flag_reg/RN    1
+@(R)->CLK(R)	0.243    0.064/*         0.070/*         U0_LOGIC_UNIT/Logic_Flag_reg/RN    1
+@(R)->CLK(R)	0.243    0.064/*         0.070/*         U0_SHIFT_UNIT/Shift_Flag_reg/RN    1
+@(R)->CLK(R)	0.243    0.064/*         0.070/*         U0_CMP_UNIT/\CMP_OUT_reg[1] /RN    1
+@(R)->CLK(R)	0.247    0.064/*         0.069/*         U0_ARITHMETIC_UNIT/Arith_Flag_reg/RN    1
+@(R)->CLK(R)	0.242    0.064/*         0.070/*         U0_CMP_UNIT/\CMP_OUT_reg[0] /RN    1
+@(R)->CLK(R)	0.247    0.067/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[2] /RN    1
+@(R)->CLK(R)	0.247    0.068/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[3] /RN    1
+@(R)->CLK(R)	0.246    0.070/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[6] /RN    1
+@(R)->CLK(R)	0.247    0.071/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[5] /RN    1
+@(R)->CLK(R)	0.246    0.072/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[4] /RN    1
+@(R)->CLK(R)	0.246    0.072/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[7] /RN    1
+@(R)->CLK(R)	0.249    0.072/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[9] /RN    1
+@(R)->CLK(R)	0.247    0.073/*         0.069/*         U0_ARITHMETIC_UNIT/Carry_OUT_reg/RN    1
+@(R)->CLK(R)	0.249    0.073/*         0.069/*         U0_SHIFT_UNIT/\Shift_OUT_reg[1] /RN    1
+@(R)->CLK(R)	0.249    0.074/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[10] /RN    1
+@(R)->CLK(R)	0.247    0.074/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[8] /RN    1
+@(R)->CLK(R)	0.249    0.075/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[15] /RN    1
+@(R)->CLK(R)	0.249    0.075/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[13] /RN    1
+@(R)->CLK(R)	0.249    0.075/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[14] /RN    1
+@(R)->CLK(R)	0.248    0.075/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[12] /RN    1
+@(R)->CLK(R)	0.248    0.075/*         0.069/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[11] /RN    1
+@(R)->CLK(R)	0.248    0.076/*         0.069/*         U0_SHIFT_UNIT/\Shift_OUT_reg[2] /RN    1
+@(R)->CLK(R)	0.248    0.076/*         0.069/*         U0_SHIFT_UNIT/\Shift_OUT_reg[3] /RN    1
+@(R)->CLK(R)	0.248    0.076/*         0.069/*         U0_SHIFT_UNIT/\Shift_OUT_reg[4] /RN    1
+@(R)->CLK(R)	0.248    0.076/*         0.069/*         U0_SHIFT_UNIT/\Shift_OUT_reg[5] /RN    1
+@(R)->CLK(R)	0.247    0.078/*         0.069/*         U0_SHIFT_UNIT/\Shift_OUT_reg[0] /RN    1
+@(R)->CLK(R)	0.243    0.081/*         0.069/*         U0_SHIFT_UNIT/\Shift_OUT_reg[6] /RN    1
+@(R)->CLK(R)	0.243    0.081/*         0.069/*         U0_SHIFT_UNIT/\Shift_OUT_reg[7] /RN    1
+CLK(R)->CLK(R)	0.252    19.848/*        0.060/*         U0_CMP_UNIT/CMP_Flag_reg/D    1
+CLK(R)->CLK(R)	0.225    */19.878        */0.087         U0_SHIFT_UNIT/Shift_Flag_reg/D    1
+CLK(R)->CLK(R)	0.221    */19.882        */0.091         U0_LOGIC_UNIT/Logic_Flag_reg/D    1
+CLK(R)->CLK(R)	0.223    */19.889        */0.093         U0_ARITHMETIC_UNIT/Arith_Flag_reg/D    1
+CLK(R)->CLK(R)	0.226    */19.911        */0.086         U0_CMP_UNIT/\CMP_OUT_reg[0] /D    1
+CLK(R)->CLK(R)	0.226    */19.911        */0.086         U0_CMP_UNIT/\CMP_OUT_reg[1] /D    1
+CLK(R)->CLK(R)	0.257    19.937/*        0.056/*         U0_LOGIC_UNIT/\Logic_OUT_reg[5] /D    1
+CLK(R)->CLK(R)	0.227    */19.938        */0.086         U0_LOGIC_UNIT/\Logic_OUT_reg[7] /D    1
+CLK(R)->CLK(R)	0.256    19.946/*        0.057/*         U0_LOGIC_UNIT/\Logic_OUT_reg[1] /D    1
+CLK(R)->CLK(R)	0.257    19.947/*        0.057/*         U0_LOGIC_UNIT/\Logic_OUT_reg[2] /D    1
+CLK(R)->CLK(R)	0.256    19.951/*        0.057/*         U0_LOGIC_UNIT/\Logic_OUT_reg[4] /D    1
+CLK(R)->CLK(R)	0.257    19.954/*        0.057/*         U0_LOGIC_UNIT/\Logic_OUT_reg[3] /D    1
+CLK(R)->CLK(R)	0.256    19.956/*        0.057/*         U0_LOGIC_UNIT/\Logic_OUT_reg[6] /D    1
+CLK(R)->CLK(R)	0.255    19.958/*        0.058/*         U0_LOGIC_UNIT/\Logic_OUT_reg[0] /D    1
+CLK(R)->CLK(R)	0.229    */19.958        */0.087         U0_SHIFT_UNIT/\Shift_OUT_reg[0] /D    1
+CLK(R)->CLK(R)	0.229    */19.962        */0.088         U0_SHIFT_UNIT/\Shift_OUT_reg[2] /D    1
+CLK(R)->CLK(R)	0.230    */19.966        */0.088         U0_SHIFT_UNIT/\Shift_OUT_reg[1] /D    1
+CLK(R)->CLK(R)	0.229    */19.967        */0.087         U0_SHIFT_UNIT/\Shift_OUT_reg[3] /D    1
+CLK(R)->CLK(R)	0.229    */19.968        */0.087         U0_SHIFT_UNIT/\Shift_OUT_reg[4] /D    1
+CLK(R)->CLK(R)	0.229    */19.969        */0.087         U0_SHIFT_UNIT/\Shift_OUT_reg[5] /D    1
+CLK(R)->CLK(R)	0.224    */19.973        */0.088         U0_SHIFT_UNIT/\Shift_OUT_reg[6] /D    1
+CLK(R)->CLK(R)	0.225    */19.981        */0.087         U0_SHIFT_UNIT/\Shift_OUT_reg[7] /D    1
+CLK(R)->CLK(R)	0.259    20.016/*        0.057/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[0] /D    1
+CLK(R)->CLK(R)	0.260    20.059/*        0.056/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[7] /D    1
+CLK(R)->CLK(R)	0.229    */20.074        */0.087         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[1] /D    1
+CLK(R)->CLK(R)	0.229    */20.074        */0.087         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[2] /D    1
+CLK(R)->CLK(R)	0.228    */20.078        */0.087         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[4] /D    1
+CLK(R)->CLK(R)	0.228    */20.079        */0.087         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[6] /D    1
+CLK(R)->CLK(R)	0.229    */20.079        */0.087         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[3] /D    1
+CLK(R)->CLK(R)	0.260    20.084/*        0.056/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[5] /D    1
+CLK(R)->CLK(R)	0.229    */20.109        */0.089         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[15] /D    1
+CLK(R)->CLK(R)	0.228    */20.113        */0.089         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[11] /D    1
+CLK(R)->CLK(R)	0.228    */20.115        */0.090         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[13] /D    1
+CLK(R)->CLK(R)	0.228    */20.116        */0.090         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[10] /D    1
+CLK(R)->CLK(R)	0.228    */20.117        */0.090         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[14] /D    1
+CLK(R)->CLK(R)	0.227    */20.118        */0.090         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[12] /D    1
+CLK(R)->CLK(R)	0.227    */20.125        */0.091         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[9] /D    1
+CLK(R)->CLK(R)	0.260    20.155/*        0.056/*         U0_ARITHMETIC_UNIT/\Arith_OUT_reg[8] /D    1
+CLK(R)->CLK(R)	0.260    20.155/*        0.056/*         U0_ARITHMETIC_UNIT/Carry_OUT_reg/D    1
+CLK(R)->CLK(R)	-19.900  */31.479        */20.000        Shift_OUT[1]    1
+CLK(R)->CLK(R)	-19.900  */31.559        */20.000        Shift_OUT[4]    1
+CLK(R)->CLK(R)	-19.900  */31.946        */20.000        CMP_OUT[0]    1
+CLK(R)->CLK(R)	-19.900  */31.947        */20.000        Shift_OUT[3]    1
+CLK(R)->CLK(R)	-19.900  */31.952        */20.000        CMP_OUT[1]    1
+CLK(R)->CLK(R)	-19.900  */31.975        */20.000        Shift_Flag    1
+CLK(R)->CLK(R)	-19.900  */32.031        */20.000        Arith_OUT[8]    1
+CLK(R)->CLK(R)	-19.900  */32.053        */20.000        Shift_OUT[7]    1
+CLK(R)->CLK(R)	-19.900  */32.078        */20.000        Shift_OUT[5]    1
+CLK(R)->CLK(R)	-19.900  */32.091        */20.000        Shift_OUT[6]    1
+CLK(R)->CLK(R)	-19.900  */32.097        */20.000        Arith_OUT[13]    1
+CLK(R)->CLK(R)	-19.900  */32.109        */20.000        Arith_OUT[3]    1
+CLK(R)->CLK(R)	-19.900  */32.164        */20.000        Arith_OUT[5]    1
+CLK(R)->CLK(R)	-19.900  */32.169        */20.000        Shift_OUT[2]    1
+CLK(R)->CLK(R)	-19.900  */32.173        */20.000        Arith_OUT[11]    1
+CLK(R)->CLK(R)	-19.900  */32.186        */20.000        Arith_OUT[14]    1
+CLK(R)->CLK(R)	-19.900  */32.216        */20.000        Arith_OUT[10]    1
+CLK(R)->CLK(R)	-19.900  */32.218        */20.000        Arith_OUT[6]    1
+CLK(R)->CLK(R)	-19.900  */32.267        */20.000        CMP_Flag    1
+CLK(R)->CLK(R)	-19.900  */32.317        */20.000        Logic_OUT[3]    1
+CLK(R)->CLK(R)	-19.900  */32.320        */20.000        Arith_OUT[15]    1
+CLK(R)->CLK(R)	-19.900  */32.353        */20.000        Arith_OUT[9]    1
+CLK(R)->CLK(R)	-19.900  */32.371        */20.000        Arith_Flag    1
+CLK(R)->CLK(R)	-19.900  */32.426        */20.000        Arith_OUT[4]    1
+CLK(R)->CLK(R)	-19.900  */32.473        */20.000        Logic_OUT[1]    1
+CLK(R)->CLK(R)	-19.900  */32.509        */20.000        Arith_OUT[7]    1
+CLK(R)->CLK(R)	-19.900  */32.559        */20.000        Carry_OUT    1
+CLK(R)->CLK(R)	-19.900  */32.572        */20.000        Arith_OUT[0]    1
+CLK(R)->CLK(R)	-19.900  */32.625        */20.000        Arith_OUT[1]    1
+CLK(R)->CLK(R)	-19.900  */32.665        */20.000        Arith_OUT[2]    1
+CLK(R)->CLK(R)	-19.900  */32.737        */20.000        Logic_OUT[4]    1
+CLK(R)->CLK(R)	-19.900  */32.782        */20.000        Logic_OUT[6]    1
+CLK(R)->CLK(R)	-19.900  */32.797        */20.000        Logic_OUT[5]    1
+CLK(R)->CLK(R)	-19.900  */32.809        */20.000        Logic_OUT[2]    1
+CLK(R)->CLK(R)	-19.900  */32.872        */20.000        Logic_OUT[7]    1
+CLK(R)->CLK(R)	-19.900  */32.928        */20.000        Logic_OUT[0]    1
+CLK(R)->CLK(R)	-19.900  */33.082        */20.000        Logic_Flag    1
+CLK(R)->CLK(R)	-19.900  */33.190        */20.000        Arith_OUT[12]    1
+CLK(R)->CLK(R)	-19.900  */34.684        */20.000        Shift_OUT[0]    1

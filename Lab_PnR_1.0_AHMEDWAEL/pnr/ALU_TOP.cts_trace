@@ -1,0 +1,93 @@
+
+
+
+
+
+Tracing Clock CLK
+
+****** Clock Tree (CLK) Structure
+Nr. Subtrees                   : 2
+Nr. Sinks                      : 39
+Nr.          Rising  Sync Pins : 39
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+SDFFRQX1M (CK)                          39
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+MX2X6M (A)                              1
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (CLK) Cell: (EMPTY) Net: (CLK) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 0
+          Nr. of     Rising  Sync Pins  : 0
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 1
+*DEPTH 1 Input_Pin: (U0_clk_mux/U1/A) Output_Pin: (U0_clk_mux/U1/Y) Cell: (MX2X6M) Net: (scan_fun_clk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 39
+          Nr. of     Rising  Sync Pins  : 39
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock CLK
+*DEPTH 0: CLK
+ *DEPTH 1: U0_clk_mux/U1(A->Y)
+  (Sync)U0_ARITHMETIC_UNIT/Arith_Flag_reg/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[6]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[5]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[7]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[9]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Carry_OUT_reg/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[8]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[10]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[11]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[4]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[12]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[13]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[14]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[15]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[3]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[2]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[1]/CK
+  (Sync)U0_ARITHMETIC_UNIT/Arith_OUT_reg[0]/CK
+  (Sync)U0_LOGIC_UNIT/Logic_Flag_reg/CK
+  (Sync)U0_LOGIC_UNIT/Logic_OUT_reg[7]/CK
+  (Sync)U0_LOGIC_UNIT/Logic_OUT_reg[3]/CK
+  (Sync)U0_LOGIC_UNIT/Logic_OUT_reg[2]/CK
+  (Sync)U0_LOGIC_UNIT/Logic_OUT_reg[0]/CK
+  (Sync)U0_LOGIC_UNIT/Logic_OUT_reg[5]/CK
+  (Sync)U0_LOGIC_UNIT/Logic_OUT_reg[4]/CK
+  (Sync)U0_LOGIC_UNIT/Logic_OUT_reg[1]/CK
+  (Sync)U0_LOGIC_UNIT/Logic_OUT_reg[6]/CK
+  (Sync)U0_SHIFT_UNIT/Shift_Flag_reg/CK
+  (Sync)U0_SHIFT_UNIT/Shift_OUT_reg[0]/CK
+  (Sync)U0_SHIFT_UNIT/Shift_OUT_reg[7]/CK
+  (Sync)U0_SHIFT_UNIT/Shift_OUT_reg[1]/CK
+  (Sync)U0_SHIFT_UNIT/Shift_OUT_reg[2]/CK
+  (Sync)U0_SHIFT_UNIT/Shift_OUT_reg[6]/CK
+  (Sync)U0_SHIFT_UNIT/Shift_OUT_reg[3]/CK
+  (Sync)U0_SHIFT_UNIT/Shift_OUT_reg[5]/CK
+  (Sync)U0_SHIFT_UNIT/Shift_OUT_reg[4]/CK
+  (Sync)U0_CMP_UNIT/CMP_Flag_reg/CK
+  (Sync)U0_CMP_UNIT/CMP_OUT_reg[1]/CK
+  (Sync)U0_CMP_UNIT/CMP_OUT_reg[0]/CK

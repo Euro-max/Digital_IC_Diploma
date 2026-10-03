@@ -1,0 +1,7 @@
+module START_CHECKER(
+	input SAMPLED_START_BIT,
+	input STRT_CHECK_EN,
+	output STRT_GLITCH
+	);
+assign STRT_GLITCH=STRT_CHECK_EN?(SAMPLED_START_BIT==0)?1'b0:1'b1:1'b0;
+endmodule

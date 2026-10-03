@@ -1,0 +1,50 @@
+Loading db file '/home/ICer/Labs/Ass_Syn_3.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : alu8_top
+Version: O-2018.06-SP1
+Date   : Wed Sep  2 03:19:53 2026
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/ICer/Labs/Ass_Syn_3.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+alu8_top               tsmc13_wl30       scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+alu8_top                                  0.759    0.720 1.64e+07    1.496 100.0
+  u_mul (mult_unit)                       0.606    0.630 1.50e+07    1.251  83.6
+    add_0_root_add_0_root_add_110 (mult_unit_DW01_add_14)
+                                          0.102 4.90e-02 2.20e+06    0.154  10.3
+    add_0_root_add_0_root_add_59 (mult_unit_DW01_add_10)
+                                       7.00e-02 3.03e-02 1.46e+06    0.102   6.8
+  u_add (add_unit)                     4.02e-02 8.03e-02 9.74e+05    0.122   8.1
+    add_34 (add_unit_DW01_add_0)       1.96e-02 2.89e-02 7.75e+05 4.93e-02   3.3
+1

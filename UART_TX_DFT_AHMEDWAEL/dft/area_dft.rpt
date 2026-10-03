@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : area
+Design : UART_TOP_TX
+Version: O-2018.06-SP1
+Date   : Thu Sep  3 21:16:12 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/ICer/Labs/Ass_DFT_1.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                           63
+Number of nets:                           163
+Number of cells:                           96
+Number of combinational cells:             76
+Number of sequential cells:                16
+Number of macros/black boxes:               0
+Number of buf/inv:                         27
+Number of references:                       9
+
+Combinational area:                601.293707
+Buf/Inv area:                      175.328301
+Noncombinational area:             480.093586
+Macro/Black Box area:                0.000000
+Net Interconnect area:           33600.169525
+
+Total cell area:                  1081.387293
+Total area:                      34681.556818
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------
+UART_TOP_TX                       1081.3873    100.0   78.8389     0.0000  0.0000  UART_TOP_TX
+Ser                                674.2491     62.4  302.4119   371.8372  0.0000  Serializer_test_1
+fsm                                197.6856     18.3   89.4292   108.2564  0.0000  FSM_test_1
+mux                                 47.0680      4.4   47.0680     0.0000  0.0000  MUX
+par                                 83.5457      7.7   83.5457     0.0000  0.0000  Parity
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------
+Total                                                 601.2937   480.0936  0.0000
+
+1

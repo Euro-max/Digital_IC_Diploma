@@ -1,0 +1,48 @@
+Loading db file '/home/ICer/Labs/Ass_Syn_3.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : alu8_top
+Version: O-2018.06-SP1
+Date   : Wed Sep  2 00:28:37 2026
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/ICer/Labs/Ass_Syn_3.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+alu8_top               tsmc13_wl30       scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+alu8_top                                  0.154    0.134 4.27e+06    0.292 100.0
+  u_mul (mult_unit)                    8.98e-02    0.102 3.53e+06    0.195  66.8
+    add_0_root_add_0_root_add_135 (mult_unit_DW01_add_0)
+                                       8.18e-03 7.20e-03 7.54e+05 1.61e-02   5.5
+  u_add (add_unit)                     1.53e-02 2.79e-02 4.18e+05 4.36e-02  14.9
+    add_34 (add_unit_DW01_add_0)       6.89e-03 4.97e-03 2.33e+05 1.21e-02   4.1
+1

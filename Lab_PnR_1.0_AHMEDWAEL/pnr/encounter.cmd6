@@ -1,0 +1,37 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Sat Sep  5 13:42:04 2026                #
+#                                                     #
+#######################################################
+
+#@(#)CDS: First Encounter v08.10-p004_1 (32bit) 11/04/2008 14:34 (Linux 2.6)
+#@(#)CDS: NanoRoute v08.10-p008 NR081027-0018/USR58-UB (database version 2.30, 67.1.1) {superthreading v1.11}
+#@(#)CDS: CeltIC v08.10-p002_1 (32bit) 10/23/2008 22:04:14 (Linux 2.6.9-67.0.10.ELsmp)
+#@(#)CDS: CTE v08.10-p016_1 (32bit) Oct 26 2008 15:11:51 (Linux 2.6.9-67.0.10.ELsmp)
+#@(#)CDS: CPE v08.10-p009
+
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign /home/ahesham/Labs/Lab_PNR_1/pnr/ALU_TOP_PLACE.enc.dat ALU_TOP
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+clockDesign -genSpecOnly Clock.ctstch
+clockDesign -specFile Clock.ctstch -outDir clock_report -fixedInstBeforeCTS
+refinePlace -preserveRouting
+setNanoRouteMode -routeWithEco true
+globalDetailRoute
+verifyGeometry -noMinArea
+verifyGeometry -noMinArea
+setDrawView place
+zoomBox -5.615 52.309 9.897 31.496
+zoomBox -1.215 45.134 2.280 40.557
+zoomBox -0.675 43.712 1.222 41.537
+zoomBox -0.475 43.570 0.873 42.171
+uiSetTool moveWire
+selectWire 0.3900 0.3900 1.3900 118.9200 6 VDD
+editMove x 0.11
+editMove x 0.0

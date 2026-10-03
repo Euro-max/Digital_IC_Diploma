@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : area
+Design : alu8_top
+Version: O-2018.06-SP1
+Date   : Wed Sep  2 03:19:51 2026
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/ICer/Labs/Ass_Syn_3.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                          220
+Number of nets:                          1020
+Number of cells:                          832
+Number of combinational cells:            744
+Number of sequential cells:                83
+Number of macros/black boxes:               0
+Number of buf/inv:                        226
+Number of references:                      14
+
+Combinational area:              12301.221842
+Buf/Inv area:                     2917.039297
+Noncombinational area:            2098.056061
+Macro/Black Box area:                0.000000
+Net Interconnect area:          231841.160553
+
+Total cell area:                 14399.277902
+Total area:                     246240.438455
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------------------
+alu8_top                          14399.2779    100.0    376.5440     0.0000  0.0000  alu8_top
+u_add                               974.3076      6.8    112.9632   284.7614  0.0000  add_unit
+u_add/add_34                        576.5830      4.0    576.5830     0.0000  0.0000  add_unit_DW01_add_0
+u_mul                             13048.4263     90.6   8234.5466  1813.2947  0.0000  mult_unit
+u_mul/add_0_root_add_0_root_add_110
+                                   1769.7568     12.3   1769.7568     0.0000  0.0000  mult_unit_DW01_add_14
+u_mul/add_0_root_add_0_root_add_59
+                                   1230.8282      8.5   1230.8282     0.0000  0.0000  mult_unit_DW01_add_10
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------------------
+Total                                                  12301.2218  2098.0561  0.0000
+
+1

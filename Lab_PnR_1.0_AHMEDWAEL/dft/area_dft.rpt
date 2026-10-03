@@ -1,0 +1,56 @@
+ 
+****************************************
+Report : area
+Design : ALU_TOP
+Version: K-2015.06
+Date   : Fri Aug 12 04:01:16 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/Labs/Lab_PNR_1/std_cells/libs/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                          382
+Number of nets:                          1027
+Number of cells:                          650
+Number of combinational cells:            591
+Number of sequential cells:                47
+Number of macros/black boxes:               0
+Number of buf/inv:                        195
+Number of references:                      15
+
+Combinational area:               6550.688919
+Buf/Inv area:                     1693.271277
+Noncombinational area:            1284.956451
+Macro/Black Box area:                0.000000
+Net Interconnect area:          211121.065186
+
+Total cell area:                  7835.645370
+Total area:                     218956.710556
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ----------------------------
+ALU_TOP                           7835.6454    100.0  1295.5467     0.0000  0.0000  ALU_TOP
+U0                                  37.6544      0.5    37.6544     0.0000  0.0000  Decoder
+U0_ARITHMETIC_UNIT                4963.3207     63.3   300.0585   593.0568  0.0000  ARITHMETIC_UNIT_test_1
+U0_ARITHMETIC_UNIT/add_51          231.8099      3.0   231.8099     0.0000  0.0000  ARITHMETIC_UNIT_DW01_add_0
+U0_ARITHMETIC_UNIT/div_63         1423.8070     18.2  1423.8070     0.0000  0.0000  ARITHMETIC_UNIT_DW_div_uns_0
+U0_ARITHMETIC_UNIT/mult_59        2151.0076     27.5  1908.6074     0.0000  0.0000  ARITHMETIC_UNIT_DW02_mult_0
+U0_ARITHMETIC_UNIT/mult_59/FS_1    242.4002      3.1   242.4002     0.0000  0.0000  ARITHMETIC_UNIT_DW01_add_1
+U0_ARITHMETIC_UNIT/sub_55          263.5808      3.4   263.5808     0.0000  0.0000  ARITHMETIC_UNIT_DW01_sub_0
+U0_CMP_UNIT                        365.9537      4.7   267.1109    98.8428  0.0000  CMP_UNIT_test_1
+U0_LOGIC_UNIT                      633.0646      8.1   336.5362   296.5284  0.0000  LOGIC_UNIT_test_1
+U0_SHIFT_UNIT                      513.0412      6.5   216.5128   296.5284  0.0000  SHIFT_UNIT_test_1
+U0_clk_mux                          15.2971      0.2    15.2971     0.0000  0.0000  mux2X1_1
+U0_rst_mux                          11.7670      0.2    11.7670     0.0000  0.0000  mux2X1_0
+--------------------------------  ---------  -------  ---------  ---------  ------  ----------------------------
+Total                                                 6550.6889  1284.9565  0.0000
+
+1

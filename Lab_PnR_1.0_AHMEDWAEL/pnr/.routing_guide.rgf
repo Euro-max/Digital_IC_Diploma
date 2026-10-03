@@ -1,0 +1,85 @@
+routeGuideNet CLK
+wire 5.945 67.855 0 67.855 H 0.5
+wire 0 67.855 0 68.1 V 0.5
+endRouteGuideNet
+routeGuideNet CLK__L1_N0
+wire 19.885 50.635 6.355 50.635 H 0.5
+wire 6.355 50.635 6.355 68.675 V 0.5
+endRouteGuideNet
+routeGuideNet CLK__L2_N0
+wire 20.295 50.225 6.355 50.225 H 0.5
+wire 6.355 50.225 6.355 50.635 V 0.5
+endRouteGuideNet
+routeGuideNet scan_fun_clk
+wire 29.725 56.375 8.405 56.375 H 0.5
+wire 8.405 56.375 8.405 51.045 V 0.5
+endRouteGuideNet
+routeGuideNet scan_fun_clk__L1_N0
+wire 54.325 53.505 31.365 53.505 H 0.5
+wire 31.365 53.505 31.365 57.195 V 0.5
+endRouteGuideNet
+routeGuideNet scan_fun_clk__L2_N0
+#Trunk_Term begin
+#Trunk scan_fun_clk__L3_I0 A 43.665 24.805
+#Trunk scan_fun_clk__L3_I2 A 39.155 82.205
+#Trunk_Term end
+wire 54.735 52.685 54.735 47.765 V 0.5
+wire 54.735 52.685 54.735 76.465 V 0.5
+wire 43.665 24.805 54.735 24.805 H 0.5
+wire 54.735 24.805 54.735 47.765 V 0.5
+wire 39.155 82.205 54.735 82.205 H 0.5
+wire 54.735 82.205 54.735 76.465 V 0.5
+endRouteGuideNet
+routeGuideNet scan_fun_clk__L3_N3
+#Trunk_Term begin
+#Trunk U0_CMP_UNIT/CMP_OUT_reg\[1\] CK 64.575 21.935
+#Trunk scan_fun_clk__L3_I3 Y 58.015 48.175
+#Trunk_Term end
+wire 77.695 73.595 58.015 73.595 H 0.5
+wire 58.015 73.595 58.015 48.175 V 0.5
+wire 58.015 27.675 64.575 27.675 H 0.5
+wire 64.575 27.675 64.575 24.805 V 0.5
+wire 58.015 27.675 58.015 48.175 V 0.5
+wire 64.575 21.935 64.575 24.805 V 0.5
+endRouteGuideNet
+routeGuideNet scan_fun_clk__L3_N2
+#Trunk_Term begin
+#Trunk scan_fun_clk__L3_I2 Y 39.565 82.615
+#Trunk U0_ARITHMETIC_UNIT/Arith_OUT_reg\[2\] CK 22.755 102.295
+#Trunk_Term end
+wire 28.085 102.295 39.565 102.295 H 0.5
+wire 28.085 102.295 22.755 102.295 H 0.5
+wire 42.435 102.295 39.565 102.295 H 0.5
+wire 39.565 82.615 39.565 102.295 V 0.5
+endRouteGuideNet
+routeGuideNet scan_fun_clk__L3_N1
+#Trunk_Term begin
+#Trunk scan_fun_clk__L3_I1 Y 67.445 76.875
+#Trunk U0_ARITHMETIC_UNIT/Arith_OUT_reg\[12\] CK 82.615 102.295
+#Trunk_Term end
+wire 82.615 102.295 80.155 102.295 H 0.5
+wire 80.565 87.945 80.565 85.075 V 0.5
+wire 80.565 87.945 80.565 90.815 V 0.5
+wire 80.155 99.425 80.155 96.555 V 0.5
+wire 80.155 99.425 80.155 102.295 V 0.5
+wire 80.155 96.555 80.565 96.555 H 0.5
+wire 80.565 96.555 80.565 90.815 V 0.5
+wire 68.675 82.205 67.445 82.205 H 0.5
+wire 67.445 82.205 67.445 76.875 V 0.5
+wire 68.675 82.205 80.565 82.205 H 0.5
+wire 80.565 82.205 80.565 85.075 V 0.5
+endRouteGuideNet
+routeGuideNet scan_fun_clk__L3_N0
+#Trunk_Term begin
+#Trunk scan_fun_clk__L3_I0 Y 44.075 25.215
+#Trunk U0_LOGIC_UNIT/Logic_OUT_reg\[6\] CK 46.535 13.325
+#Trunk U0_LOGIC_UNIT/Logic_OUT_reg\[3\] CK 20.705 13.325
+#Trunk_Term end
+wire 46.535 13.325 42.025 13.325 H 0.5
+wire 44.075 25.215 42.025 25.215 H 0.5
+wire 42.025 25.215 42.025 16.195 V 0.5
+wire 42.025 16.195 42.025 13.325 V 0.5
+wire 33.825 13.325 24.805 13.325 H 0.5
+wire 33.825 13.325 42.025 13.325 H 0.5
+wire 20.705 13.325 24.805 13.325 H 0.5
+endRouteGuideNet
